@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Second_Activity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bonjour "
+        android:textColor="#00F"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:textSize="12sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=",vous etes agès de "
+        android:textColor="#00F"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/ageTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:textSize="12sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ans et vous etes "
+        android:textColor="#00F"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/tailleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00F"
+        android:textSize="12sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <Button
+        android:id="@+id/retourBtn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Retour"
+        android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>
